@@ -1,0 +1,828 @@
+@import url(./Muller/stylesheet.css);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Muller;
+  background-color: rgba(241, 241, 241, 1);
+}
+a {
+  text-decoration: none;
+  color: rgba(102, 102, 102, 1);
+}
+.header {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.header-top {
+  margin-bottom: 30px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.header-logolink {
+  margin-right: 40px;
+}
+.header-logophone {
+  margin-right: auto;
+  font-family: Muller;
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.header-link {
+  margin-right: 5px;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+}
+.header-cablink {
+  margin-right: 5px;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+}
+
+.header-bottom .wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 15px;
+}
+.header-bottom-nav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.header-bottom-link {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(102, 102, 102, 1);
+}
+.header-bottom-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-bottom-btn {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgba(204, 153, 51, 1);
+  border-radius: 10px;
+}
+.main-promo .wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+.main-group-colomn {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.main-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(51, 51, 51, 1);
+  margin: 0;
+  margin-left: 40px;
+  
+}
+.main-group1 {
+  width: 573px;
+  height: 258px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  background-image: url(./Rectangle\ 15.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding-left: 45px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-right: 108px;
+}
+.main-cart-heading {
+  font-family: Muller;
+  font-weight: 700;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-bottom: 15px;
+}
+.main-cart-text {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.main-cart-btn {
+  padding-right: 16px;
+  background-image: url(./Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(240, 191, 95, 1);
+  margin: 0;
+}
+.main-group2 {
+  width: 573px;
+  height: 258px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  background-image: url(./Rectangle\ 151.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding-left: 45px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-right: 108px;
+}
+.main-promo-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  
+}
+.main-group3 {
+  width: 573px;
+  height: 540px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  background-image: url(./33\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding-top: 212px;
+padding-left: 45px;
+padding-right: 229px;
+padding-bottom: 40px;
+}
+.main-cart-heading1 {
+  font-family: Muller;
+  font-weight: 700;
+  font-size: 60px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  
+  margin: 0;
+}
+.main-cart-text1 {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 47px;
+  color: rgba(255, 255, 255, 1);
+}
+.main-us .wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-us-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(51, 51, 51, 1);
+  margin: 0;
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.main-us-text {
+  width: 888px;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 200%;
+  letter-spacing: 0%;
+  margin: 0;
+  color: rgba(0, 0, 0, 1);
+  
+}
+.main-service .wrapper {
+  display: flex;
+  align-items: flex-start;
+  
+  flex-direction: column;
+}
+.service-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(51, 51, 51, 1);
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+
+}
+.galleries {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.gallery {
+  width: 573px;
+  height: 330px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+.gallery-text {
+  padding-top: 26px;
+  padding-left: 45px;
+  padding-right: 126px;
+  padding-bottom: 35px;
+  margin: 0;
+}
+.gallery-btn {
+  background-image: url(./Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 16px;
+  font-family: Muller;
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+  margin: 0;
+}
+.btn-text {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+.main-adges .wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.adge-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+.adges-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  
+}
+.adge {
+  width: 276px;
+  height: 276px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 45px;
+  padding-bottom: 40px;
+  padding-right: 42px;
+  border-radius: 15px;
+  padding-top: 40px;
+}
+.adges-text {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-top: 10px;
+}
+/* <!-- РАЗМЕЩЕНИЕ --> */
+.main-placing .wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.placing-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.group-placing {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card-placing {
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.card-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-placing {
+  padding-left: 45px;
+  padding-bottom: 45px;
+  padding-top: 32px;
+  padding-right: 45px;
+  font-family: Muller;
+}
+.placing-pay {
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+.span {
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+.placing-name {
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-top: 16px;
+}
+.placing-btn {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(204, 153, 51, 1);
+  padding-left: 20px;
+  padding-bottom: 13px;
+  padding-right: 20px;
+  padding-top: 13px;
+  border: 1px solid rgba(204, 153, 51, 1);
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.card-placing-1 {
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+  background-image: url(./41.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 27px;
+}
+.placing-name-1 {
+    font-family: Muller;
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  background-image: url(./Rectangle\ 212.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-right: 16px;
+}
+/* <!-- {ХОЧУ ТУР} --> */
+.want-tour .wrapper {
+  width: 1170px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgba(233, 233, 233, 1);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 40px;
+  padding-right: 45px;
+  border-radius: 15px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.tour-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+.want-form {
+  display: flex;
+  width: 100%;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 32px;
+  padding-top: 31px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+}
+.tour-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 41px;
+  margin: 0;
+}
+.form-colmn {
+  width: 169px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+}
+.form-colmn-heading {
+  margin: 0;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+.form-select {
+  border: none;
+  appearance: none;
+  background-image: url(./Rectangle\ 211.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.form-date {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  border: none;
+}
+.form-colmn-1 {
+  width: 121px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-number {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  border: none;
+  border-bottom: 1px solid rgba(233, 233, 233, 1);
+}
+.form-colmn-2 {
+  width: 108px;
+  display: flex;
+  flex-direction: column;
+}
+.form-btn {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+  padding-bottom: 13px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 13px;
+  border-radius: 15px;
+  border: 1px solid rgba(204, 153, 51, 1);
+  background-color: transparent;
+}
+/* <!-- КОНТАКТЫ --> */
+
+.contacts .wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  
+}
+.contacts-heading {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 41px;
+  margin-bottom: 20px;
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+
+}
+.contacts-groups{
+  display: flex;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  padding: 45px;
+  gap: 52px;
+}
+.contacts-group {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px; */
+  /* padding-top: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px; */
+  /* background-image: url(./Layer\ 2\ 1.png);
+  background-position: 472px 45px; */
+
+  background-repeat: no-repeat;
+}
+.contacts-row {
+  width: 375px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(233, 233, 233, 1);
+}
+
+.contact-adress {
+  font-family: Muller;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 83px;
+  margin-top: 0;
+}
+.contact-txt-adress {
+  margin: 0;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+.contact-phone {
+  font-family: Muller;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 47px;
+  margin-top: 0;
+}
+.contacts-mail {
+  font-family: Muller;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 93px;
+  margin-top: 0;
+}
+.text-link {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(153, 153, 153, 1);
+  margin: 0;
+}
+.contacts-chart {
+  font-family: Muller;
+  font-weight: 700;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 74px;
+  margin-top: 0;
+}
+.cont-btn {
+  margin-top: 47px;
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 29.5px;
+  padding-right: 29.5px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  border: 1px solid rgba(204, 153, 51, 1);
+  background-color: transparent;
+  border-radius: 15px;
+  color: rgba(204, 153, 51, 1);
+}
+
+/* ФУТЕР */
+.footer {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+.footer .wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 45px;
+  border-radius: 15px;
+  background-color: rgba(51, 51, 51, 1);
+  background-image: url(./Слой\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right 176px bottom 0;
+}
+.contact-phone {
+}
+.footer-colmn {
+  display: flex;
+  flex-direction: column;
+}
+.footer-text {
+  width: 302px;
+  font-family: Muller;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 190%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-bottom: 37px;
+  margin-right: 125px;
+}
+.footer-text1 {
+  width: 302px;
+  font-family: Muller;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 190%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-bottom: 40px;
+  margin-right: 125px;
+}
+
+.footer-link {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+  
+}
+.footer-link1 {
+  font-family: Muller;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(204, 153, 51, 1);
+  margin-top: 15px;
+  
+}
+.footer-socials {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+}
